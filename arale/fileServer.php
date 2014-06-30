@@ -47,7 +47,7 @@ ul {
 	height: 425px;
 }
 #qr_code {
-	//padding:0 0 0 25px;
+	padding:0 0 0 25px;
 }
 .qr_area_div {
 	margin:0 150px;
