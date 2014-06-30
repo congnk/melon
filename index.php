@@ -12,7 +12,6 @@
 $(function(){
 	$("#root_nav li:first").addClass("ui-nav-subitem-current");
 });
-//commit tag !1
 </script>
 	</body>
 </html>
