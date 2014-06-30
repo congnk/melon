@@ -76,7 +76,7 @@
 <div class="side-area" style="position: fixed; top: 20px;">
     <ul>
         <li class=""><a href="#modules-box">box<i class="iconfont" title="单箭头右">区块</i></a></li>
-		<li class=""><a href="#modules-button">button<i class="iconfont" title="单箭头右">按钮</i></a></li>
+		<li><a href="#modules-button">button<i class="iconfont" title="单箭头右">按钮</i></a></li>
 		<li><a href="#modules-button-dropdown">button-dropdown<i class="iconfont" title="单箭头右">按钮菜单</i></a></li>
 		<li><a href="#modules-form">form<i class="iconfont" title="单箭头右">表单</i></a></li>
 		<li class=""><a href="#modules-list">list<i class="iconfont" title="单箭头右">列表</i></a></li>
