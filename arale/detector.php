@@ -80,7 +80,7 @@
 		<li><a href="#modules-button-dropdown">button-dropdown<i class="iconfont" title="单箭头右">按钮菜单</i></a></li>
 		<li><a href="#modules-form">form<i class="iconfont" title="单箭头右">表单</i></a></li>
 		<li class=""><a href="#modules-list">list<i class="iconfont" title="单箭头右">列表</i></a></li>
-		<li ><a href="#modules-nav">nav<i class="iconfont" title="单箭头右">导航</i></a></li>
+		<li><a href="#modules-nav">nav<i class="iconfont" title="单箭头右">导航</i></a></li>
 		<li class="side-highlight"><a href="#modules-paging">paging<i class="iconfont" title="单箭头右">分页</i></a></li>
 		<li><a href="#modules-poptip">poptip<i class="iconfont" title="单箭头右">气泡</i></a></li>
 		<li><a href="#modules-tab">tab<i class="iconfont" title="单箭头右">标签页</i></a></li>
