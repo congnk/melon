@@ -43,13 +43,20 @@ $(function(){
 			$(this).addClass("ui-nav-subitem-current");
 		}
 	});
+	
+	seajs.use(["arale/sticky/1.3.1/sticky"], function(sticky) {
+
+		sticky.fix(".ui-nav");
+
+	});
 });
+
 </script>
 
 <style>
-.content {
-    margin: 0 auto;
-    width: 100%;
+.ui-nav {
+	width:100%;
+	z-index:999
 }
 
 </style>
@@ -114,7 +121,6 @@ $(function(){
 	  
 	  </ul>
 	</li>
-	<li class="ui-nav-item"><a href="#">一级导航 4</a></li>
   </ul>
   <div class="ui-nav-subcontainer"></div>
 </div>

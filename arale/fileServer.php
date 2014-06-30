@@ -60,6 +60,10 @@ ul {
 	line-height:260px;
 }
 
+.ui-poptip {
+	z-index:1;
+}
+
 </style>
 
 
