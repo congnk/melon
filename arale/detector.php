@@ -7,6 +7,7 @@
 <style type="text/css">
 .content {
     margin: 0 auto 0 220px;
+	padding:10px 0 0 15px;
     width: 990px;
 }
 </style>
@@ -30,7 +31,7 @@
 		<pre id="ua"></pre>
 		</div>
 	</div>
-	
+
 
 <script type="text/javascript">
 	document.title += "--Detector"; 

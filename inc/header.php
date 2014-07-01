@@ -38,6 +38,7 @@ jquery/jquery/1.7.2/jquery.js">
 		  "detector":'arale/detector/1.3.0/detector',
 		  "autocomplete":'arale/autocomplete/1.3.0/autocomplete',
 		  "upload":"arale/upload/1.1.1/upload",
+		  "slide":'arale/switchable/1.0.2/slide',
 		  "dialog.css": "css/dialog.css"
 		}
 	  });
