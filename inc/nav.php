@@ -67,8 +67,10 @@ $(function(){
 	  <a href="/php/melon/">主菜单</a>
 	  <ul class="ui-nav-submain">
 		<li class="ui-nav-subitem "><a href='<?php print "$context/index.php"; ?>'>快速导航</a></li>
+		<li class="ui-nav-subitem">
+			<?php print "<a href='$context/fileServer.php'; >文件中转站</a> ";?>
+		</li>
 		<li class="ui-nav-subitem"><a href='<?php print "$context/note.php"; ?>'>混合内容</a></li>
-		<li class="ui-nav-subitem"><a href="#">杂七杂八</a></li>
 	  </ul>
 	</li>
 	<li id="alice_nav" class="ui-nav-item">
@@ -96,9 +98,6 @@ $(function(){
 	  <ul class="ui-nav-submain">
 		<li class="ui-nav-subitem">
 		<?php print "<a href='$context/arale/index.php'; >功能目录</a> ";?>
-		</li>
-		<li class="ui-nav-subitem">
-		<?php print "<a href='$context/arale/fileServer.php'; >文件中转</a> ";?>
 		</li>
 		<li class="ui-nav-subitem">
 		<?php print "<a href='$context/arale/calendar.php'; >日历</a> ";?>
