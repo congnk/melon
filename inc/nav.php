@@ -14,6 +14,9 @@ $(function(){
 	$alice_pos = strripos($full_path,"alice");
 	$arale_pos = strripos($full_path,"arale");
 		
+	$is_alice =  false ;
+	$is_arale = false ;
+	
 	if($alice_pos > 0 && $arale_pos == 0){
 		$is_alice =  true ;
 	}

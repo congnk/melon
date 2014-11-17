@@ -7,8 +7,8 @@
 <style type="text/css">
 .side-area {
     overflow: hidden;
-    position: absolute;
-    top: 0;
+    position: fixed;
+	top: 80px;
     width: 220px;
     background: #fff;
     border-bottom: 1px solid #ddd;
@@ -72,12 +72,34 @@
 .side-area a:hover .iconfont {
     color: #aaa;
 }
+.padding-side-area {
+	width: 220px;
+	height:300px;
+	float:left;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
 </style>
-<div class="side-area" style="position: fixed; top: 20px;">
-            <ul>
-                        
-                    <li class=""><a href="#modules-box">box<i class="iconfont" title="单箭头右">区块</i></a></li><li class=""><a href="#modules-button">button<i class="iconfont" title="单箭头右">按钮</i></a></li><li><a href="#modules-button-dropdown">button-dropdown<i class="iconfont" title="单箭头右">按钮菜单</i></a></li><li><a href="#modules-form">form<i class="iconfont" title="单箭头右">表单</i></a></li><li class=""><a href="#modules-list">list<i class="iconfont" title="单箭头右">列表</i></a></li><li class=""><a href="#modules-nav">nav<i class="iconfont" title="单箭头右">导航</i></a></li><li class="side-highlight"><a href="#modules-paging">paging<i class="iconfont" title="单箭头右">分页</i></a></li><li><a href="#modules-poptip">poptip<i class="iconfont" title="单箭头右">气泡</i></a></li><li><a href="#modules-tab">tab<i class="iconfont" title="单箭头右">标签页</i></a></li><li><a href="#modules-table">table<i class="iconfont" title="单箭头右">表格</i></a></li><li><a href="#modules-tipbox">tipbox<i class="iconfont" title="单箭头右">提示框</i></a></li><li><a href="#modules-tiptext">tiptext<i class="iconfont" title="单箭头右">提示文本</i></a></li><li><a href="#modules-select">select<i class="iconfont" title="单箭头右">下拉框</i></a></li><li><a href="#modules-loading">loading<i class="iconfont" title="单箭头右">加载中</i></a></li><li><a href="#modules-step">step<i class="iconfont" title="单箭头右">步骤</i></a></li></ul>
+<div class="side-area" style="">
+    <ul>                
+        <li class=""><a href="#modules-box">box<i class="iconfont" title="单箭头右">区块</i></a></li>
+		<li class=""><a href="#modules-button">button<i class="iconfont" title="单箭头右">按钮</i></a></li>
+		<li><a href="#modules-button-dropdown">button-dropdown<i class="iconfont" title="单箭头右">按钮菜单</i></a></li>
+		<li><a href="#modules-form">form<i class="iconfont" title="单箭头右">表单</i></a></li>
+		<li class=""><a href="#modules-list">list<i class="iconfont" title="单箭头右">列表</i></a></li>
+		<li class=""><a href="#modules-nav">nav<i class="iconfont" title="单箭头右">导航</i></a></li>
+		<li class="side-highlight"><a href="#modules-paging">paging<i class="iconfont" title="单箭头右">分页</i></a></li>
+		<li><a href="#modules-poptip">poptip<i class="iconfont" title="单箭头右">气泡</i></a></li>
+		<li><a href="#modules-tab">tab<i class="iconfont" title="单箭头右">标签页</i></a></li>
+		<li><a href="#modules-table">table<i class="iconfont" title="单箭头右">表格</i></a></li>
+		<li><a href="#modules-tipbox">tipbox<i class="iconfont" title="单箭头右">提示框</i></a></li>
+		<li><a href="#modules-tiptext">tiptext<i class="iconfont" title="单箭头右">提示文本</i></a></li>
+		<li><a href="#modules-select">select<i class="iconfont" title="单箭头右">下拉框</i></a></li>
+		<li><a href="#modules-loading">loading<i class="iconfont" title="单箭头右">加载中</i></a></li>
+		<li><a href="#modules-step">step<i class="iconfont" title="单箭头右">步骤</i></a></li>
+	</ul>
 </div>
+<div class="padding-side-area" style="float:left;padding-left:30px"></div>
     <div id="content-wrapper" style="padding-left:40px">
         <div id="content">
 		<article class="hentry">
