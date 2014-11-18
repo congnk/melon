@@ -37,6 +37,7 @@ seajs/seajs-health/0.1.0/seajs-health.js">
 		  "detector":'arale/detector/1.3.0/detector',
 		  "autocomplete":'arale/autocomplete/1.3.0/autocomplete',
 		  "upload":"arale/upload/1.1.1/upload",
+		  "slide":'arale/switchable/1.0.2/slide',
 		  "dialog.css": "css/dialog.css"
 		}
 	  });

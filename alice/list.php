@@ -105,8 +105,6 @@
 
 <script>
 	document.title += "-- 列表"; 
-	$(function(){
-		$("#alice_nav li:eq(1)").addClass("ui-nav-subitem-current");
-	});
+	
 </script>
 <?php include '../inc/footer.php';?>

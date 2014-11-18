@@ -46,13 +46,20 @@ $(function(){
 			$(this).addClass("ui-nav-subitem-current");
 		}
 	});
+	
+	seajs.use(["arale/sticky/1.3.1/sticky"], function(sticky) {
+
+		sticky.fix(".ui-nav");
+
+	});
 });
+
 </script>
 
 <style>
-.content {
-    margin: 0 auto;
-    width: 100%;
+.ui-nav {
+	width:100%;
+	z-index:999
 }
 
 </style>
@@ -63,8 +70,10 @@ $(function(){
 	  <a href="/php/melon/">主菜单</a>
 	  <ul class="ui-nav-submain">
 		<li class="ui-nav-subitem "><a href='<?php print "$context/index.php"; ?>'>快速导航</a></li>
+		<li class="ui-nav-subitem">
+			<?php print "<a href='$context/fileServer.php'; >文件中转站</a> ";?>
+		</li>
 		<li class="ui-nav-subitem"><a href='<?php print "$context/note.php"; ?>'>混合内容</a></li>
-		<li class="ui-nav-subitem"><a href="#">杂七杂八</a></li>
 	  </ul>
 	</li>
 	<li id="alice_nav" class="ui-nav-item">
@@ -94,9 +103,6 @@ $(function(){
 		<?php print "<a href='$context/arale/index.php'; >功能目录</a> ";?>
 		</li>
 		<li class="ui-nav-subitem">
-		<?php print "<a href='$context/arale/fileServer.php'; >文件中转</a> ";?>
-		</li>
-		<li class="ui-nav-subitem">
 		<?php print "<a href='$context/arale/calendar.php'; >日历</a> ";?>
 		</li>
 		<li class="ui-nav-subitem">
@@ -117,7 +123,6 @@ $(function(){
 	  
 	  </ul>
 	</li>
-	<li class="ui-nav-item"><a href="#">一级导航 4</a></li>
   </ul>
   <div class="ui-nav-subcontainer"></div>
 </div>
