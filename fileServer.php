@@ -206,7 +206,6 @@ function genDelSpan( adom){
 			},
 			function(data){					
 				var JSONObject = jQuery.parseJSON( data); 
-			//	console.log(JSONObject);
 				if( JSONObject.result == "true" ){
 					$(adom).parent() .remove();
 				}else{
