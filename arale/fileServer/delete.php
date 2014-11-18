@@ -1,4 +1,5 @@
 <?php 
+	
 	$obj->result  = 'true';
 	$obj->message  = '¹þ¹þ¹þ';
 	
@@ -26,11 +27,5 @@
 	}
 	$obj->message = iconv("gb2312","UTF-8",$obj->message) ;
 echo json_encode($obj);
-
-
-
-
-
-
 
 ?>

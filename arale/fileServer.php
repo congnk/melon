@@ -144,14 +144,12 @@ seajs.use(['$', 'upload'], function($, Uploader) {
 	  },
 	  name: "Filedata"
     }).change(function(files) {
-    for (var i=0; i<files.length; i++) {
-        $(".ui-tipbox-title").html(files[0].name + " 正在上传");
-    }
-    // Default behavior of change is
-     this.submit();
+		for (var i=0; i<files.length; i++) {
+			$(".ui-tipbox-title").html(files[0].name + " 正在上传");
+		}
+		this.submit();
 	}).success(function(data) {
-		var JSONObject = jQuery.parseJSON( data); 
-	
+		var JSONObject = jQuery.parseJSON( data );
 		if( JSONObject.result == "true"){
 			var li = document.createElement("li");
 			var a = document.createElement("a");
@@ -223,10 +221,12 @@ function genDelSpan( adom){
 }
 	
 $(function(){
-	$("#file_list > li > a").live("click",function(){	
+	$("#file_list").on("click",">li>a",function(e){	
 		genQrCode(this.href);
+		e.preventDefault();
 		return false ;
-	}).live("mouseover",function(){
+	});
+	$("#file_list > li > a").live("mouseover",function(){
 		var current_li = $(this).parent() ;
 		var span = genDelSpan( this ) ;
 		

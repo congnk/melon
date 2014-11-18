@@ -10,15 +10,14 @@ print <<< dND
 	<link media="all" href="http://aliceui.org/button/dist/button.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" media="screen" href="http://aliceui.org/button/src/ui-button-green.css">
 	<!--link media="all" href="https://a.alipayobjects.com/alice/one/1.1.0/one.css" rel="stylesheet"-->
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
 <script charset="utf-8" id="seajsnode"src="	
 	http://static.alipayobjects.com/??seajs/seajs/2.1.1/sea.js,
 seajs/seajs-combo/1.0.0/seajs-combo.js,
 seajs/seajs-debug/1.0.0/seajs-debug.js,
 seajs/seajs-style/1.0.0/seajs-style.js,
-seajs/seajs-health/0.1.0/seajs-health.js,
-jquery/jquery/1.7.2/jquery.js">
+seajs/seajs-health/0.1.0/seajs-health.js">
 </script>
-<script type="text/javascript" src="$context/js/jquery-1.7.2.min.js"></script>
 	<style>
         
     </style>

@@ -40,7 +40,7 @@ $(function(){
 $(function(){
 	//实现自动根据url标记当前选中项
 	var loc= window.location.pathname ;
-	$("li:.ui-nav-item-current li").each(function(){
+	$("li.ui-nav-item-current li").each(function(){
 		var a= $(this).find("a").attr("href") ;
 		if(loc.indexOf( a ) != -1 ){
 			$(this).addClass("ui-nav-subitem-current");
